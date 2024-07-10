@@ -6,11 +6,14 @@
   font-weight: <weight>;
   font-style: normal;
 }
+/* shared style */
+body{
+    display: block;
+}
 /* banner style */
  .Banner{
-    background-image: url(/resource/Hero-bg.png);
-    object-fit: cover;
-    position: absolute;
+    background-image: url(./resource/Hero-bg.png);
+    object-fit: cover; 
     width: 1500px;
     height: 700px;
     text-align: center; 
@@ -41,3 +44,59 @@
     width: 208px;
     height: 66px;
  }
+ /* web-development */
+ .web-dev{
+    text-align: center;
+    padding: 80px 97px 80px 97px;
+    /* gap: 40px; */
+ } 
+.web-txt{
+      justify-content: flex-start; 
+      align-items: center;
+      gap: 24px;  
+}
+.web-para{
+    color: rgb(13, 19, 33); 
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;  
+    padding :24px 180px 48px 180px;
+}
+.web-head{
+    padding-top: 154px; 
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    /* width: 852px;
+    height: 39px; */
+    font-size: 32px;
+    font-weight: 800; 
+    text-align: center;
+}
+ .web-btn{
+    justify-content: center;
+align-items: center;
+padding: 12px 20px 12px 20px;
+ }
+ .web-pic-1, .web-pic-3
+ {
+    display: flex; 
+    text-align: center; 
+    justify-content: space-between; 
+    padding: 75px 152px 33px 148px; 
+    gap: 100px;
+ } 
+  .web-pic-2{
+    display: flex; 
+    text-align: center; 
+    justify-content: left; 
+    padding: 75px 152px 33px 148px; 
+    gap: 90px;
+  }
+ .web-pic11 , .web-pic22 , .web-pic33{
+    max-width: 400px;
+    width: 477px;
+    height: 220px;
+    padding-left: 0px; 
+    text-align: left; 
+}
