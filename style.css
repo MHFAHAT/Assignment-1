@@ -146,12 +146,12 @@ padding: 24px 200px 48px 200px;
    gap: 30px;
 }
 .card-1 .card-2 .card-3{
-   padding: 40px;  
+   padding: 50px;  
 
 }
 .card-1{
    background-color: rgba(255, 76, 30, 0.05);
-   width: 300px;
+   width: 364px;
    height: 245px;
 }
 .card-2{
@@ -163,4 +163,58 @@ padding: 24px 200px 48px 200px;
    background-color: rgba(255, 223, 0, 0.05);
    width: 364px;
    height: 245px;
+}
+/* support */
+.support{  
+   background-image: url(/resource/handshake.jpg);
+   margin-left: 180px; 
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   border-radius: 16px;
+   width: 1140px;
+   height: 314px;
+   left: 150px; 
+}
+.text {
+   width: 800px;
+   height: 15px;
+     padding: 19px 20px 19px 20px;
+     text-align: left; 
+     justify-content: center; 
+     border-radius: 8px;
+}
+.support-head{
+   padding-top: 64px;
+   text-align: center;
+   color: white;
+}
+.support-para{
+   text-align: center;
+   color: white;
+}
+.support-txt{ 
+   width: 500px;
+   display: flex; 
+   resize: none; 
+   gap: 20px; 
+   padding-left: 250px;
+   padding-top: 25px;
+   align-items: center;
+}
+.text-submit{ 
+   padding: 19px 20px 19px 20px; 
+   background-color: white;
+   font-size: 13px;
+   font-weight: 600;
+   border-radius: 8px;
+   text-align: center;
+}
+/* foot */
+.foot{
+   display: flex;
+   padding-top: 79px;
+   padding: 28px 150px ;
+   border-radius: 16px;
+   background: rgba(0, 6, 19, 0.03);
+   justify-content:space-between;
 }
