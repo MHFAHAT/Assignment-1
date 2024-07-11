@@ -34,7 +34,8 @@ body{
  {
     font-size: 20px;
     font-weight: 400;
-    padding: 0 200px 0 200px;
+    padding: 0 200px 0 200px; 
+    color: rgb(13, 19, 33); 
  }
  .banner-btn{
     border-radius: 8px;
@@ -47,8 +48,7 @@ body{
  /* web-development */
  .web-dev{
     text-align: center;
-    padding: 80px 97px 80px 97px;
-    /* gap: 40px; */
+    padding: 80px 97px 80px 97px; 
  } 
 .web-txt{
       justify-content: flex-start; 
@@ -63,12 +63,13 @@ body{
     line-height: 26px;  
     padding :24px 180px 48px 180px;
 }
+.webhead{
+    color: rgba(13, 19, 33, 0.7);
+}
 .web-head{
     padding-top: 154px; 
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    /* width: 852px;
-    height: 39px; */
+    font-family: Azeret Mono; 
     font-size: 32px;
     font-weight: 800; 
     text-align: center;
@@ -77,6 +78,10 @@ body{
     justify-content: center;
 align-items: center;
 padding: 12px 20px 12px 20px;
+ background-color: white;
+ }
+ .webpara{
+    color: rgb(13, 19, 33);
  }
  .web-pic-1, .web-pic-3
  {
@@ -99,4 +104,63 @@ padding: 12px 20px 12px 20px;
     height: 220px;
     padding-left: 0px; 
     text-align: left; 
+}
+/* youtube  */
+.youtube-txt{
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   padding: 88px 144px 48px 144px;
+}
+.youtube-txthead{
+   font-size: 32px;
+}
+.youtube-txtpara{
+   padding: 24px 144px 48px 144px; 
+   font-size: 16px;
+}
+.youtube-vid{
+   text-align: center; 
+}
+iframe{
+   border-radius: 40px;
+}
+/* target style */
+.target{
+   text-align: center;
+   padding-top: 150px;
+}
+.target-para{
+   color: rgb(13, 19, 33); 
+font-size: 16px;
+font-weight: 400; 
+text-align: center; 
+padding: 24px 200px 48px 200px;
+}
+
+.tcard{
+   display: flex;
+   text-align: left;
+   align-items: flex-start;
+   padding: 48px 200px 110px 150px; 
+   gap: 30px;
+}
+.card-1 .card-2 .card-3{
+   padding: 40px;  
+
+}
+.card-1{
+   background-color: rgba(255, 76, 30, 0.05);
+   width: 300px;
+   height: 245px;
+}
+.card-2{
+   background-color: rgba(0, 76, 232, 0.05);
+   width: 364px;
+   height: 245px;
+}
+.card-3{
+   background-color: rgba(255, 223, 0, 0.05);
+   width: 364px;
+   height: 245px;
 }
