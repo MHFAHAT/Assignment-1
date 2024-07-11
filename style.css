@@ -167,7 +167,7 @@ padding: 24px 200px 48px 200px;
 }
 /* support */
 .support{  
-   background-image: url(/resource/handshake.jpg);
+   background-image: url(./resource/handshake.jpg);
    margin-left: 180px; 
    background-size: 100% 100%;
    background-repeat: no-repeat;
